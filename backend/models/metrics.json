@@ -1,0 +1,177 @@
+{
+  "best_model": "Linear Regression",
+  "best_model_key": "LinearRegression",
+  "evaluations": {
+    "Linear Regression": {
+      "MAE": 1.787,
+      "RMSE": 2.151,
+      "R2": 0.9147
+    },
+    "Random Forest Regressor": {
+      "MAE": 2.522,
+      "RMSE": 3.07,
+      "R2": 0.8263
+    }
+  },
+  "feature_importances": [
+    {
+      "feature": "Previous Marks",
+      "importance": 40.4
+    },
+    {
+      "feature": "Internal Assessment",
+      "importance": 34.45
+    },
+    {
+      "feature": "Assignment Score",
+      "importance": 12.04
+    },
+    {
+      "feature": "Study Hours",
+      "importance": 9.56
+    },
+    {
+      "feature": "Attendance",
+      "importance": 3.54
+    }
+  ],
+  "comparison_points": [
+    {
+      "id": 1,
+      "actual": 71.6,
+      "predicted": 73.2
+    },
+    {
+      "id": 2,
+      "actual": 67.0,
+      "predicted": 67.5
+    },
+    {
+      "id": 3,
+      "actual": 81.1,
+      "predicted": 79.3
+    },
+    {
+      "id": 4,
+      "actual": 71.4,
+      "predicted": 73.1
+    },
+    {
+      "id": 5,
+      "actual": 73.3,
+      "predicted": 69.0
+    },
+    {
+      "id": 6,
+      "actual": 75.4,
+      "predicted": 75.6
+    },
+    {
+      "id": 7,
+      "actual": 68.2,
+      "predicted": 67.1
+    },
+    {
+      "id": 8,
+      "actual": 78.9,
+      "predicted": 75.7
+    },
+    {
+      "id": 9,
+      "actual": 82.1,
+      "predicted": 82.8
+    },
+    {
+      "id": 10,
+      "actual": 70.6,
+      "predicted": 69.4
+    },
+    {
+      "id": 11,
+      "actual": 72.4,
+      "predicted": 71.2
+    },
+    {
+      "id": 12,
+      "actual": 67.3,
+      "predicted": 67.6
+    },
+    {
+      "id": 13,
+      "actual": 83.3,
+      "predicted": 81.1
+    },
+    {
+      "id": 14,
+      "actual": 79.7,
+      "predicted": 77.7
+    },
+    {
+      "id": 15,
+      "actual": 83.0,
+      "predicted": 84.9
+    },
+    {
+      "id": 16,
+      "actual": 74.8,
+      "predicted": 75.4
+    },
+    {
+      "id": 17,
+      "actual": 61.2,
+      "predicted": 63.9
+    },
+    {
+      "id": 18,
+      "actual": 74.7,
+      "predicted": 72.7
+    },
+    {
+      "id": 19,
+      "actual": 69.7,
+      "predicted": 70.9
+    },
+    {
+      "id": 20,
+      "actual": 64.5,
+      "predicted": 68.9
+    },
+    {
+      "id": 21,
+      "actual": 77.3,
+      "predicted": 79.3
+    },
+    {
+      "id": 22,
+      "actual": 69.4,
+      "predicted": 68.9
+    },
+    {
+      "id": 23,
+      "actual": 68.9,
+      "predicted": 71.7
+    },
+    {
+      "id": 24,
+      "actual": 65.0,
+      "predicted": 61.7
+    },
+    {
+      "id": 25,
+      "actual": 66.1,
+      "predicted": 65.1
+    }
+  ],
+  "dataset_summary": {
+    "total_samples": 600,
+    "train_samples": 480,
+    "test_samples": 120,
+    "features": [
+      "attendance",
+      "assignment_score",
+      "internal_assessment",
+      "study_hours",
+      "previous_marks"
+    ]
+  }
+}
